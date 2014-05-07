@@ -1,4 +1,4 @@
-FROM itriage/base
+FROM jwaldrip/base
 MAINTAINER Jason Waldrip <jason@waldrip.net>
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -y g++ make
